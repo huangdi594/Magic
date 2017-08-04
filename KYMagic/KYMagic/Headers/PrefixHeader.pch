@@ -1,0 +1,89 @@
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+//单例类
+#ifdef __OBJC__
+//自定义宏
+#import "Constant.h"
+
+//基类
+#import "NetworkRequest.h"
+#import "NetWorkHeader.h"
+#import "AppManager.h"
+
+//公共类
+#import "AppDelegate.h"
+#import "AppDelegate+ShareSDK.h"
+#import "AppDelegate+JPush.h"
+#import "AppDelegate+UMeng.h"
+#import "MainTabBarController.h"
+#import "UserModel.h"   //用户模型
+#import "EFPopupViewManager.h"
+#import "XHSuperNavigationController.h"
+#import "UUID.h"
+#import "QFDatePickerView.h"  //年月时间选择器
+#import "NSString+DisplayTime.h"
+#import "MHUIUtil.h"
+
+//第三方库
+#import <MJRefresh.h>
+#import <IQKeyboardManager.h>
+#import <Masonry.h>
+#import <MBProgressHUD.h>
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <YYModel/YYModel.h>
+#import "UIScrollView+EmptyDataSet.h"
+#import "WZLBadgeImport.h"
+#import <SDImageCache.h>
+#import <UIImageView+WebCache.h>
+#import "TZImagePickerController.h"  //图片选择器
+#import "UIView+WebCache.h"
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import "ZJScrollPageView.h"
+
+//支付宝支付SDK
+#import <AlipaySDK/AlipaySDK.h>
+//微信
+#import <WXApi.h>
+
+//分享shareSDK
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import <ShareSDKUI/ShareSDK+SSUI.h>
+
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+//微信SDK头文件
+#import "WXApi.h"
+
+//新浪微博SDK头文件
+#import "WeiboSDK.h"
+//新浪微博SDK需要在项目Build Settings中的Other Linker Flags添加"-ObjC"
+
+// 友盟
+#import <UMMobClick/MobClick.h>
+
+
+//分类
+#import "NSArray+Category.h"
+#import "NSDictionary+Ext.h"
+#import "NSString+Ext.h"
+#import "UIView+Layout.h"
+#import "NSString+MD5.h"
+#import "NSMutableArray+Category.h"
+#import "NSString+Category.h"
+#import "NSString+Predicate.h"
+#import "NSTimer+Category.h"
+#import "UIButton+Category.h"
+#import "UIColor+BGHexColor.h"
+#import "UIImage+Category.h"
+#import "NSString+XH_Date.h"//快速生成日期字符串
+#import "NSDate+XH_Category.h"//获取间隔月
+#import "UIView+Layout.h"
+#endif
+//
+#endif /* PrefixHeader_pch */

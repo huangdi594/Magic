@@ -1,0 +1,53 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KYMagic' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for KYMagic
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'YYModel'
+pod 'DZNEmptyDataSet'               #tableView 没数据时提示页面
+pod 'TZImagePickerController'       # 图片选择器
+pod 'Masonry'
+pod 'MBProgressHUD'
+pod 'IQKeyboardManager'
+pod 'WZLBadge'
+pod 'Reachability',  '~> 3.0.0'     #用于网络状态监测
+pod 'YYWebImage'                    #图片处理
+
+#支付宝
+pod 'AliPay'
+
+# 主模块(必须)
+pod 'ShareSDK3'
+# Mob 公共库(必须) 如果同时集成SMSSDK iOS2.0:可看此注意事项：http://bbs.mob.com/thread-20051-1-1.html
+pod 'MOBFoundation'
+
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+pod 'ShareSDK3/ShareSDKExtension'
+pod 'ShareSDK3/ShareSDKUI'
+
+#极光推送
+pod 'JPush'
+#友盟
+pod 'UMengAnalytics-NO-IDFA'          #无IDFA版SDK
+
+
+
+  target 'KYMagicTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'KYMagicUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

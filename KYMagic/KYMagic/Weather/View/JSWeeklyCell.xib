@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="17A306f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JSWeeklyCell" id="KGk-i7-Jjw" customClass="JSWeeklyCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="25"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="24.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIC-L6-yu5">
+                        <rect key="frame" x="8" y="0.0" width="33" height="24.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ar-zy-8Qt">
+                        <rect key="frame" x="100" y="0.0" width="33" height="24.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEL-8F-3Df">
+                        <rect key="frame" x="238" y="0.0" width="33" height="24.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwm-2E-DsV">
+                        <rect key="frame" x="279" y="0.0" width="33" height="24.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="04O-1o-Meq">
+                        <rect key="frame" x="66" y="0.0" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="04O-1o-Meq" secondAttribute="height" multiplier="1:1" id="nR5-xh-JiN"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="04O-1o-Meq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8I1-KE-5c6"/>
+                    <constraint firstItem="WIC-L6-yu5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Dnc-hM-Xex"/>
+                    <constraint firstItem="04O-1o-Meq" firstAttribute="leading" secondItem="WIC-L6-yu5" secondAttribute="trailing" constant="25" id="H9V-gU-B2H"/>
+                    <constraint firstAttribute="bottom" secondItem="04O-1o-Meq" secondAttribute="bottom" id="Lnm-cy-ia1"/>
+                    <constraint firstItem="04O-1o-Meq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Zs1-Fb-SWM"/>
+                    <constraint firstItem="0Ar-zy-8Qt" firstAttribute="leading" secondItem="04O-1o-Meq" secondAttribute="trailing" constant="10" id="dNs-c2-35i"/>
+                    <constraint firstAttribute="trailing" secondItem="Nwm-2E-DsV" secondAttribute="trailing" constant="8" id="g2L-Z7-Vt7"/>
+                    <constraint firstAttribute="bottom" secondItem="04O-1o-Meq" secondAttribute="bottom" id="g2b-uX-vkt"/>
+                    <constraint firstItem="WIC-L6-yu5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hlA-cS-ZpK"/>
+                    <constraint firstItem="Nwm-2E-DsV" firstAttribute="leading" secondItem="GEL-8F-3Df" secondAttribute="trailing" constant="8" id="hmF-XL-pe0"/>
+                    <constraint firstItem="Nwm-2E-DsV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="igh-gI-KtR"/>
+                    <constraint firstAttribute="bottom" secondItem="0Ar-zy-8Qt" secondAttribute="bottom" id="paO-ST-Q2k"/>
+                    <constraint firstAttribute="bottom" secondItem="WIC-L6-yu5" secondAttribute="bottom" id="qiA-Dw-fxc"/>
+                    <constraint firstAttribute="bottom" secondItem="GEL-8F-3Df" secondAttribute="bottom" id="soY-Tq-dgf"/>
+                    <constraint firstItem="GEL-8F-3Df" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tfv-yY-NXd"/>
+                    <constraint firstAttribute="bottom" secondItem="Nwm-2E-DsV" secondAttribute="bottom" id="xth-JJ-Tie"/>
+                    <constraint firstItem="0Ar-zy-8Qt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yVA-JA-ryh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="highLB" destination="GEL-8F-3Df" id="tGe-2j-9Y6"/>
+                <outlet property="lowLB" destination="Nwm-2E-DsV" id="bl8-wL-unh"/>
+                <outlet property="weatherImgView" destination="04O-1o-Meq" id="bF1-9q-uyX"/>
+                <outlet property="weatherLB" destination="0Ar-zy-8Qt" id="kOS-iN-EEV"/>
+                <outlet property="weekLb" destination="WIC-L6-yu5" id="snS-as-HdG"/>
+            </connections>
+            <point key="canvasLocation" x="50" y="59.5"/>
+        </tableViewCell>
+    </objects>
+</document>
