@@ -25,12 +25,6 @@
 		EB3DA0611F3178D600B371A1 /* Aqiinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA0531F3178D600B371A1 /* Aqiinfo.m */; };
 		EB3DA0621F3178D600B371A1 /* Index.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA0541F3178D600B371A1 /* Index.m */; };
 		EB3DA0631F3178D600B371A1 /* Night.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA0571F3178D600B371A1 /* Night.m */; };
-		EB3DA0711F31B51100B371A1 /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB3DA0641F31B51100B371A1 /* CityData.plist */; };
-		EB3DA0721F31B51100B371A1 /* TLCity.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA0661F31B51100B371A1 /* TLCity.m */; };
-		EB3DA0731F31B51100B371A1 /* TLCityGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA0681F31B51100B371A1 /* TLCityGroupCell.m */; };
-		EB3DA0741F31B51100B371A1 /* TLCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA06A1F31B51100B371A1 /* TLCityHeaderView.m */; };
-		EB3DA0751F31B51100B371A1 /* TLCityPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA06C1F31B51100B371A1 /* TLCityPickerController.m */; };
-		EB3DA0761F31B51100B371A1 /* TLCityPickerSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA06F1F31B51100B371A1 /* TLCityPickerSearchResultController.m */; };
 		EB3DA07A1F31C5D900B371A1 /* JSWeatherHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA0791F31C5D900B371A1 /* JSWeatherHeaderView.m */; };
 		EB3DA07C1F31C5E400B371A1 /* JSWeatherHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB3DA07B1F31C5E400B371A1 /* JSWeatherHeaderView.xib */; };
 		EB3DA0801F31C75B00B371A1 /* JSWeatherHourlyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DA07E1F31C75B00B371A1 /* JSWeatherHourlyCell.m */; };
@@ -177,18 +171,6 @@
 		EB3DA0591F3178D600B371A1 /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
 		EB3DA05A1F3178D600B371A1 /* Daily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Daily.h; sourceTree = "<group>"; };
 		EB3DA05B1F3178D600B371A1 /* Aqiinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aqiinfo.h; sourceTree = "<group>"; };
-		EB3DA0641F31B51100B371A1 /* CityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityData.plist; sourceTree = "<group>"; };
-		EB3DA0651F31B51100B371A1 /* TLCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCity.h; sourceTree = "<group>"; };
-		EB3DA0661F31B51100B371A1 /* TLCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCity.m; sourceTree = "<group>"; };
-		EB3DA0671F31B51100B371A1 /* TLCityGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCityGroupCell.h; sourceTree = "<group>"; };
-		EB3DA0681F31B51100B371A1 /* TLCityGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCityGroupCell.m; sourceTree = "<group>"; };
-		EB3DA0691F31B51100B371A1 /* TLCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCityHeaderView.h; sourceTree = "<group>"; };
-		EB3DA06A1F31B51100B371A1 /* TLCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCityHeaderView.m; sourceTree = "<group>"; };
-		EB3DA06B1F31B51100B371A1 /* TLCityPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCityPickerController.h; sourceTree = "<group>"; };
-		EB3DA06C1F31B51100B371A1 /* TLCityPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCityPickerController.m; sourceTree = "<group>"; };
-		EB3DA06D1F31B51100B371A1 /* TLCityPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCityPickerDelegate.h; sourceTree = "<group>"; };
-		EB3DA06E1F31B51100B371A1 /* TLCityPickerSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCityPickerSearchResultController.h; sourceTree = "<group>"; };
-		EB3DA06F1F31B51100B371A1 /* TLCityPickerSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCityPickerSearchResultController.m; sourceTree = "<group>"; };
 		EB3DA0781F31C5D900B371A1 /* JSWeatherHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWeatherHeaderView.h; sourceTree = "<group>"; };
 		EB3DA0791F31C5D900B371A1 /* JSWeatherHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSWeatherHeaderView.m; sourceTree = "<group>"; };
 		EB3DA07B1F31C5E400B371A1 /* JSWeatherHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSWeatherHeaderView.xib; sourceTree = "<group>"; };
@@ -504,26 +486,6 @@
 			path = WeatherModel;
 			sourceTree = "<group>";
 		};
-		EB3DA0701F31B51100B371A1 /* TLCityPicker */ = {
-			isa = PBXGroup;
-			children = (
-				EB3DA0641F31B51100B371A1 /* CityData.plist */,
-				EB3DA0651F31B51100B371A1 /* TLCity.h */,
-				EB3DA0661F31B51100B371A1 /* TLCity.m */,
-				EB3DA0671F31B51100B371A1 /* TLCityGroupCell.h */,
-				EB3DA0681F31B51100B371A1 /* TLCityGroupCell.m */,
-				EB3DA0691F31B51100B371A1 /* TLCityHeaderView.h */,
-				EB3DA06A1F31B51100B371A1 /* TLCityHeaderView.m */,
-				EB3DA06B1F31B51100B371A1 /* TLCityPickerController.h */,
-				EB3DA06C1F31B51100B371A1 /* TLCityPickerController.m */,
-				EB3DA06D1F31B51100B371A1 /* TLCityPickerDelegate.h */,
-				EB3DA06E1F31B51100B371A1 /* TLCityPickerSearchResultController.h */,
-				EB3DA06F1F31B51100B371A1 /* TLCityPickerSearchResultController.m */,
-			);
-			name = TLCityPicker;
-			path = "../../../../../Downloads/TLCityPicker-master/TLCityPicker";
-			sourceTree = "<group>";
-		};
 		EB67EDF01F2EC89E00037D3B /* ZJScrollPageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -743,7 +705,6 @@
 		EBE116C11F304D6500B7497F /* PickerTools */ = {
 			isa = PBXGroup;
 			children = (
-				EB3DA0701F31B51100B371A1 /* TLCityPicker */,
 				EBE116D41F307BD400B7497F /* AddressPicker */,
 			);
 			path = PickerTools;
@@ -1071,7 +1032,6 @@
 				EB3DA0811F31C75B00B371A1 /* JSWeatherHourlyCell.xib in Resources */,
 				EB3DA07C1F31C5E400B371A1 /* JSWeatherHeaderView.xib in Resources */,
 				EB6EC7261F2AD8CB002BCD60 /* ProgressAnimation.gif in Resources */,
-				EB3DA0711F31B51100B371A1 /* CityData.plist in Resources */,
 				EB3DA0861F31D17100B371A1 /* JSWeeklyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1288,7 +1248,6 @@
 				EB67EE051F2EC89E00037D3B /* ZJContentView.m in Sources */,
 				EBF34E0E1F28654700DB00F3 /* CWSuperViewController.m in Sources */,
 				EBF34DFE1F28634F00DB00F3 /* QFDatePickerView.m in Sources */,
-				EB3DA0741F31B51100B371A1 /* TLCityHeaderView.m in Sources */,
 				EBF34E271F28676200DB00F3 /* AppDelegate+ShareSDK.m in Sources */,
 				EB6EC70A1F2AD282002BCD60 /* JSRefreshGifHeader.m in Sources */,
 				EBF34E3B1F2872B500DB00F3 /* NSMutableArray+Category.m in Sources */,
@@ -1301,7 +1260,6 @@
 				EBF34E381F28729600DB00F3 /* NSString+MD5.m in Sources */,
 				EBE116EB1F307F5600B7497F /* STPickerSingle.m in Sources */,
 				EBF34DD71F28429500DB00F3 /* UIImage+Category.m in Sources */,
-				EB3DA0721F31B51100B371A1 /* TLCity.m in Sources */,
 				EB3DA0611F3178D600B371A1 /* Aqiinfo.m in Sources */,
 				EBF34E441F2873A200DB00F3 /* NSDate+XH_Category.m in Sources */,
 				EB3DA0451F31721F00B371A1 /* JSWeatherVC.m in Sources */,
@@ -1316,10 +1274,7 @@
 				EB3DA05F1F3178D600B371A1 /* Hourly.m in Sources */,
 				EBF34DE41F2842FA00DB00F3 /* UIColor+BGHexColor.m in Sources */,
 				EB3DA0601F3178D600B371A1 /* Daily.m in Sources */,
-				EB3DA0761F31B51100B371A1 /* TLCityPickerSearchResultController.m in Sources */,
 				EB3DA05C1F3178D600B371A1 /* WeatherModel.m in Sources */,
-				EB3DA0751F31B51100B371A1 /* TLCityPickerController.m in Sources */,
-				EB3DA0731F31B51100B371A1 /* TLCityGroupCell.m in Sources */,
 				EB67EE041F2EC89E00037D3B /* UIViewController+ZJScrollPageController.m in Sources */,
 				EBF34E411F28730400DB00F3 /* NSString+Predicate.m in Sources */,
 				EBF34E261F28676200DB00F3 /* AppDelegate+TabbarControllerDelegate.m in Sources */,
