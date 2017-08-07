@@ -84,6 +84,7 @@
 		EBE51CA41F32F6390081F698 /* JSBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE51CA31F32F6390081F698 /* JSBackVC.m */; };
 		EBE51CA81F330AE20081F698 /* JSMineTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE51CA71F330AE20081F698 /* JSMineTopView.m */; };
 		EBE51CAA1F330AEB0081F698 /* JSMineTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE51CA91F330AEB0081F698 /* JSMineTopView.xib */; };
+		EBEC78501F3836AD00F80632 /* JSRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEC784F1F3836AD00F80632 /* JSRefreshTableViewController.m */; };
 		EBF34DD71F28429500DB00F3 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF34DCE1F28429500DB00F3 /* UIImage+Category.m */; };
 		EBF34DD81F28429500DB00F3 /* UIView+BGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF34DD01F28429500DB00F3 /* UIView+BGFrame.m */; };
 		EBF34DD91F28429500DB00F3 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF34DD11F28429500DB00F3 /* UIView+Animation.m */; };
@@ -285,6 +286,8 @@
 		EBE51CA61F330AE20081F698 /* JSMineTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMineTopView.h; sourceTree = "<group>"; };
 		EBE51CA71F330AE20081F698 /* JSMineTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMineTopView.m; sourceTree = "<group>"; };
 		EBE51CA91F330AEB0081F698 /* JSMineTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSMineTopView.xib; sourceTree = "<group>"; };
+		EBEC784E1F3836AD00F80632 /* JSRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRefreshTableViewController.h; sourceTree = "<group>"; };
+		EBEC784F1F3836AD00F80632 /* JSRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRefreshTableViewController.m; sourceTree = "<group>"; };
 		EBF34DB91F283A4A00DB00F3 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		EBF34DBB1F283A4A00DB00F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EBF34DCD1F28429500DB00F3 /* UITableViewCell+CellAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CellAnimation.h"; sourceTree = "<group>"; };
@@ -893,6 +896,8 @@
 				EBF34E091F28654700DB00F3 /* XHSuperNavigationController.m */,
 				EBF34E061F28654700DB00F3 /* AppManager.h */,
 				EBF34E0A1F28654700DB00F3 /* AppManager.m */,
+				EBEC784E1F3836AD00F80632 /* JSRefreshTableViewController.h */,
+				EBEC784F1F3836AD00F80632 /* JSRefreshTableViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1264,6 +1269,7 @@
 				EB3DA05E1F3178D600B371A1 /* Aqi.m in Sources */,
 				EBE116C91F30554200B7497F /* JSPickerDemoVC.m in Sources */,
 				EB3DA07A1F31C5D900B371A1 /* JSWeatherHeaderView.m in Sources */,
+				EBEC78501F3836AD00F80632 /* JSRefreshTableViewController.m in Sources */,
 				EBF34DF91F28486D00DB00F3 /* UUID.m in Sources */,
 				EB6EC6FB1F2ACB29002BCD60 /* JSGuidePageCollectionViewCell.m in Sources */,
 				EBF34DD91F28429500DB00F3 /* UIView+Animation.m in Sources */,
@@ -1473,7 +1479,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RMNS4E2JPG;
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = /Users/new/KYMagic/KYMagic/KYMagic/Headers/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KYMagic/Headers/PrefixHeader.pch";
 				INFOPLIST_FILE = KYMagic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1493,7 +1499,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RMNS4E2JPG;
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = /Users/new/KYMagic/KYMagic/KYMagic/Headers/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KYMagic/Headers/PrefixHeader.pch";
 				INFOPLIST_FILE = KYMagic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
