@@ -12,4 +12,6 @@
 
 + (MainTabBarController *)instance;
 
+@property (nonatomic, strong) NSString * tabBarItem;
+
 @end

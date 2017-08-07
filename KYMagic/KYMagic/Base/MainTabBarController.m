@@ -35,13 +35,26 @@ static MainTabBarController * mainTabBar = nil;
     
 }
 
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
+    NSLog(@"%@",item.title);
+    _tabBarItem = item.title;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     JSHomeVC *homepageVC = [JSHomeVC new];
     JSMineVC *mineVC = [JSMineVC new];
     JSWeatherVC * weatherVC = [JSWeatherVC new];
+    
+    NSArray *arr = [NSArray arrayWithObjects:@"JSHomeVC",@"JSMineVC",@"JSWeatherVC", nil];
+    
+    for (NSInteger i = 0 ; i < arr.count; i++) {
+        UIViewController *vc = [[NSClassFromString(arr[i]) alloc]init];
+        [self addChildViewController:vc];
+    }
   
-    [self addChildViewControllers:@[homepageVC,mineVC]];
+//    [self addChildViewControllers:@[homepageVC,mineVC]];
     
     [self tabBarAddSubVC:homepageVC title:@"首页" imageName:@"icon_sy" selecateImage:@"icon_Lsy"];
     [self tabBarAddSubVC:weatherVC title:@"天气" imageName:@"icon_sy" selecateImage:@"icon_Lsy"];
@@ -62,7 +75,12 @@ static MainTabBarController * mainTabBar = nil;
     // Dispose of any resources that can be recreated.
 }
 
-- (void)addChildViewControllers:(NSArray *)childControllers  {
+- (void)addChildViewController:(UIViewController *)childController{
+    XHSuperNavigationController *navHome = [[XHSuperNavigationController alloc] initWithRootViewController:childController];
+    [super addChildViewController:navHome];
+}
+
+- (void)addChildViewControllers:(NSArray <UIViewController *>*)childControllers  {
     
     for (NSInteger index = 0; index < childControllers.count; index++) {
         XHSuperNavigationController *navHome = [[XHSuperNavigationController alloc] initWithRootViewController:childControllers[index]];
@@ -76,8 +94,8 @@ static MainTabBarController * mainTabBar = nil;
     
     [VC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:MainColor} forState:4];
     
-    VC.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]];
-    VC.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"%@",selecateImage]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    VC.tabBarItem.image = [UIImage imageNamed:imageName];
+    VC.tabBarItem.selectedImage = [[UIImage imageNamed:selecateImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     
     XHSuperNavigationController *nav = [[XHSuperNavigationController alloc]initWithRootViewController:VC];

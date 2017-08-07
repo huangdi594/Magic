@@ -26,6 +26,7 @@
 - (void)setRightBtnTitle:(NSString *)text;
 - (void)back;
 - (void)addViewToNavBar:(UIView *)view Frame:(CGRect)Frame;
+- (void)setNavBarHide:(BOOL)hide;
 
 typedef void(^RightBtnBlock)();
 @property (nonatomic, copy) RightBtnBlock  rightBtnBlock;

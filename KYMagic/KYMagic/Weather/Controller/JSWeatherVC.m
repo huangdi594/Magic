@@ -16,7 +16,7 @@
 
 #import "JSProgressHUD.h"
 #import "JSRefreshPch.h"
-
+#import "MainTabBarController.h"
 #import "TLCityPickerController.h"
 
 
@@ -199,6 +199,7 @@
         NSDictionary * dic = responseObject[@"result"];
         
         weakSelf.model = [[WeatherModel alloc]initWithDictionary:dic];
+        
         [weakSelf.topview reloadWeatherData:weakSelf.model];
         [weakSelf.headerView reloadHourlyDatas:weakSelf.model.hourly];
         [weakSelf.table reloadData];

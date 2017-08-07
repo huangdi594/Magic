@@ -237,6 +237,11 @@
     
 }
 
+- (void)setNavBarHide:(BOOL)hide{
+    self.xh_NavView.hidden = YES;
+    self.xh_NavigationBar.hidden = YES;
+}
+
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
     return NO;
