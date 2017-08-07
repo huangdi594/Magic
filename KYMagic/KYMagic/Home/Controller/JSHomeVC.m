@@ -94,6 +94,7 @@
     
     // 初始化
     self.scrollPageView = [[ZJScrollPageView alloc] initWithFrame:CGRectMake(0, 64.0, SCREEN_WIDTH, SCREEN_HEIGHT - 64.0 - 49) segmentStyle:style titles:self.titles parentViewController:self delegate:self];
+    
     [self.view addSubview:self.scrollPageView];
     UIView *line = [[UIView alloc] init];
     line.frame = CGRectMake(0, 64.0 + SegmentViewHeight, SCREEN_WIDTH, 0.5);

@@ -1016,7 +1016,7 @@
 				TargetAttributes = {
 					EBD2F4211F25EEA600403C0E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = RMNS4E2JPG;
+						DevelopmentTeam = BUSE2P9C3V;
 						ProvisioningStyle = Automatic;
 					};
 					EBD2F43A1F25EEA600403C0E = {
@@ -1477,7 +1477,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = RMNS4E2JPG;
+				DEVELOPMENT_TEAM = BUSE2P9C3V;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/KYMagic/Headers/PrefixHeader.pch";
 				INFOPLIST_FILE = KYMagic/Info.plist;
@@ -1497,7 +1497,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = RMNS4E2JPG;
+				DEVELOPMENT_TEAM = BUSE2P9C3V;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/KYMagic/Headers/PrefixHeader.pch";
 				INFOPLIST_FILE = KYMagic/Info.plist;
